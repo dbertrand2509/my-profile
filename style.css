@@ -1,0 +1,89 @@
+body{
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color:#3e64ff;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+h2, h3{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #3e64ff;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Bowlby One', cursive;
+}
+
+h2 {
+	color: #5edfff;
+	text-decoration: underline;
+	font-size: 28px;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6b48ff;
+	font-weight: bolder;
+}
+
+a:hover {
+	color: #a1dd70;
+}
+
+/* Custom design with class */
+
+.container {
+	
+	width: 700px
+	margin 40px auto
+}
+
+.card-white {
+    	background: rgba(230,230,230,1);
+    	padding: 60px;
+   		margin: 50px auto;
+   		box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    	border-radius: 24px;
+    	border: 1px solid rgba(230,230,230,0.3);
+}
+
+.card-contact {
+		background: rgba(230,230,230,1);
+    	padding: 60px;
+   		margin: 50px auto;
+   		box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    	border-radius: 24px;
+    	border: 1px solid rgba(230,230,230,0.3);
+}
+}
+.img-circle {
+	border-radius: 50% 
+}
+
+.btn-blue {
+	background-color: blue
+	color: white;
+	padding: 15px	20px
+	border-radius: 24px;
+}
+
+.list-inline {
+	list-style: none
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+#icon {
+	font-size: 50px;
+}
